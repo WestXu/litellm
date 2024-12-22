@@ -53,6 +53,12 @@ config_path = None
 secret_manager_client = None
 ####### COMPLETION MODELS ###################
 open_ai_chat_completion_models = [
+  "o1",
+  "o1-preview",
+  "o1-mini",
+  "o3",
+  "o3-preview",
+  "o3-mini",
   "gpt-4o",
   "gpt-4",
   "gpt-4-0613",
